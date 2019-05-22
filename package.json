@@ -1,7 +1,7 @@
 {
   "name": "@voiceflow/git-branch-check",
   "description": "Voiceflow branch naming check",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Voiceflow",
   "bin": {
     "git-branch-check": "node index.js"
