@@ -1,0 +1,5 @@
+coverage
+.idea
+.nyc_output
+scratch.js
+
