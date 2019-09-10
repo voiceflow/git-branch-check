@@ -5,7 +5,7 @@
 const branchName = require('current-git-branch');
 
 const branchRegex = /^\w+\/\S+\/CORE-\d+$/;
-const EXCEPTIONS = ['production', 'staging', 'master'];
+const EXCEPTIONS = ['production', 'staging', 'master', 'voiceflowV2'];
 
 try {
   const curBranchName = branchName();
