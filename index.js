@@ -16,7 +16,7 @@ try {
     process.exitCode = 1;
     console.log(
       '\x1b[31m%s\x1b[0m',
-      `\nCurrent Git branch name: "${curBranchName}" \nIs not valid for given pattern: "<first name>/core-000"\n\nIf you don't have a ticket, then you should probably create one: \nhttps://linear.app/team/CORE/new\n`
+      `\nCurrent Git branch name: "${curBranchName}" \nIs not valid for given pattern: "<first name>/short-description/CORE-000"\n\nIf you don't have a ticket, then you should probably create one: \nhttps://voiceflow.atlassian.net/secure/CreateIssue!default.jspa\n`
     );
   }
 } catch (error) {
