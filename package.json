@@ -65,7 +65,8 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "lint": "fixpack && eslint \"**/*.js\" --fix",
+    "lint": "fixpack && eslint \"**/*.js\"",
+    "lint:fix": "yarn lint --fix",
     "prepare": "fixpack"
   }
 }
