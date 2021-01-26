@@ -21,7 +21,7 @@
     "@commitlint/cli": "^7.6.1",
     "@commitlint/config-conventional": "^7.5.0",
     "@voiceflow/commitlint-config": "^1.0.1",
-    "@voiceflow/eslint-config": "^2.0.4",
+    "@voiceflow/eslint-config": "^2.0.5",
     "@voiceflow/prettier-config": "^1.0.5",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",

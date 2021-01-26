@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   vfcommon: voiceflow/common@0.0.54
+  validate-title: qventus/validate-title@0.0.4
 
 jobs:
   build-and-test:
@@ -12,6 +13,20 @@ jobs:
       - vfcommon/lint_source
 
 workflows:
+
+  pr-checker:
+    jobs:
+      - validate-title/validate:
+          context: dev-test
+          regex: >-
+            $PR_REGEX
+          filters:
+            branches:
+              ignore:
+                - /env-.*/
+                - staging
+                - master
+
   test-and-release:
     jobs:
       - build-and-test:
