@@ -11,6 +11,8 @@ jobs:
       - checkout
       - vfcommon/install_node_modules
       - vfcommon/lint_source
+      - vfcommon/dependency_tests:
+          step_name: Dependency Tests
 
 workflows:
 
