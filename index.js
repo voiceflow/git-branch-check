@@ -5,7 +5,7 @@
 
 const branchName = require('current-git-branch');
 
-const branchRegex = /^\w+\/(\S+\/)?CORE-\d+$/;
+const branchRegex = /^\w+\/(\S+\/)?VF-\d+$/;
 const EXCEPTIONS = ['production', 'staging', 'master'];
 
 try {
@@ -17,7 +17,7 @@ try {
     process.exitCode = 1;
     console.log(
       '\x1b[31m%s\x1b[0m',
-      `\nCurrent Git branch name: "${curBranchName}" \nIs not valid for given pattern: "<first name>/short-description/CORE-000"\n\nIf you don't have a ticket, then you should probably create one: \nhttps://voiceflow.atlassian.net/secure/CreateIssue!default.jspa\n`
+      `\nCurrent Git branch name: "${curBranchName}" \nIs not valid for given pattern: "<first name>/short-description/VF-000"\n\nIf you don't have a ticket, then you should probably create one: \nhttps://voiceflow.atlassian.net/secure/CreateIssue!default.jspa\n`
     );
   }
 } catch (error) {
