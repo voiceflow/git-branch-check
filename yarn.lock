@@ -720,10 +720,10 @@
   dependencies:
     "@commitlint/config-conventional" "^12.1.4"
 
-"@voiceflow/eslint-config@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@voiceflow/eslint-config/-/eslint-config-5.1.1.tgz#15d205d957b09b0de7875e499bba22966ee69930"
-  integrity sha512-Qn23hmlP8IOq3+IEAh5uRTILvNMgFzR4rJXjxYsK/yrVjHrjVEROwmzNAeMeix4pAECfZ3azbb1AbVN5XmtxdA==
+"@voiceflow/eslint-config@5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@voiceflow/eslint-config/-/eslint-config-5.1.2.tgz#21ad9d88eb2e5ce5fd219c0c64da795294ca5315"
+  integrity sha512-lyGKhnOjnN51K3v/o0oOaa/dLqMVpTZmQrVIsQekJTFvuKh1AkW5DkjxX1itCyzDSo/3wSPLPUtbG1JeZr0xlw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.3.0"
     "@typescript-eslint/parser" "^5.3.0"
