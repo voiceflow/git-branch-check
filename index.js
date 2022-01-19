@@ -4,12 +4,14 @@
 const branchName = require('current-git-branch');
 
 const branchRegex = /^\w+\/(\S+\/)?VF-\d+$/;
-const EXCEPTIONS = ['production', 'trying', 'staging', 'master'];
+const EXCEPTIONS = [/^production$/, /^trying$/, /^staging$/, /^master$/, /^break-glass.*$/];
 
 try {
   const curBranchName = branchName();
 
-  if (curBranchName.match(branchRegex) || EXCEPTIONS.includes(curBranchName)) {
+  const isMatch = EXCEPTIONS.some((rx) => curBranchName.match(rx));
+
+  if (curBranchName.match(branchRegex) || isMatch) {
     process.exitCode = 0;
   } else {
     process.exitCode = 1;
