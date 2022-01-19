@@ -22,7 +22,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@voiceflow/commitlint-config": "2.0.0",
     "@voiceflow/eslint-config": "6.0.0",
-    "@voiceflow/git-branch-check": "1.2.2",
+    "@voiceflow/git-branch-check": "1.2.3",
     "@voiceflow/prettier-config": "1.0.6",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
