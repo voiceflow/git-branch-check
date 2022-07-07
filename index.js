@@ -3,7 +3,7 @@
 
 const branchName = require('current-git-branch');
 
-const branchRegex = /^\w+\/(\S+\/)?(VF|CT|NLU)-\d+$/;
+const branchRegex = /^\w+\/(\S+\/)?(VF|CT|NLU|PL|IN)-\d+$/;
 const EXCEPTIONS = [/^production$/, /^trying$/, /^staging$/, /^master$/, /^break-glass.*$/];
 
 try {
