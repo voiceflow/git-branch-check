@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This library has been [moved here](https://github.com/voiceflow/toolchain/tree/master/libs/git-branch-check).
+
 # git-branch-check
 Verify git branch naming convention
 
